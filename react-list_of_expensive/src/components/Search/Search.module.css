@@ -1,0 +1,26 @@
+.input_wrapper {
+    width: 60%;
+    margin: 2.5rem auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+  }
+  
+  .input_wrapper input,
+  .input_wrapper select,
+  option {
+    margin: 1rem 0rem;
+    padding: 1rem 1rem;
+
+  }
+  
+  .input_wrapper select {
+    appearance: none;
+    border-radius: 0px;
+  }
+  
+  .input_wrapper label {
+    font-size: 1.4rem;
+  }
+  
